@@ -10,16 +10,16 @@ const JobListing = ({ job }) => {
   if (!showFullDescription) {
     description = description.substring(0, 90) + '...';
   }
-
+ 
   return (
     <div className='bg-white rounded-xl shadow-md relative'>
       <div className='p-4'>
         <div className='mb-6'>
-          <div className='text-gray-600 my-2'>{job.type}</div>
-          <h3 className='text-xl font-bold'>{job.title}</h3>
+          <div className='text-gray-600 my-2'>PHP MySQL HTML CSS</div>
+          <h3 className='text-xl font-bold'>Find-A-Doc</h3>
         </div>
 
-        <div className='mb-5'>{description}</div>
+        <div className='mb-5'>Find-A-Doc is a PHP-based website designed to schedule patient appointments with doctors, eliminating the need for patients to call doctors' offices for appointment scheduling.</div>
 
         <button
           onClick={() => setShowFullDescription((prevState) => !prevState)}

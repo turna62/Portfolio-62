@@ -1,0 +1,22 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Find-A-Doc",
+      "type": "PHP MySQL HTML CSS",
+      "description": "Find-A-Doc is a PHP-based website designed to schedule patient appointments with doctors, eliminating the need for patients to call doctors' offices for appointment scheduling."
+    },
+    {
+      "id": "2",
+      "title": "Bon-Voyage",
+      "type": "MongoDB Express React Node.js",
+      "description": "Bon Voyage! is a MERN-based website centered around Bangladesh that will assist people to plan a trip according to their preferences."
+    },
+    {
+      "id": "3",
+      "title": "RRF-Restaurant Review Finder",
+      "type": "PHP MySQL HTML CSS",
+      "description": "RRF is a PHP-based website centered around Gazipur, designed for reviewing food items and restaurants. It is built to assist users in finding high-quality food items at their preferred restaurants by showcasing a diverse selection of menu offerings and restaurant options, complete with ratings and reviews."
+    }
+  ]
+}
